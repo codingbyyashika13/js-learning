@@ -1,0 +1,28 @@
+.ac-list {
+    list-style: none;
+}
+
+.red {
+    color: crimson;
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+    cursor: pointer;
+}
+
+.yellow {
+    color: yellow;
+    cursor: pointer;
+}
+
+.ac-list li:nth-child(3n+1) {
+    color: crimson;
+}
+.ac-list li:nth-child(3n+2) {
+    color: green;
+}
+.ac-list li:nth-child(3n+3) {
+    color: yellow;
+}
